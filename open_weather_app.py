@@ -103,7 +103,6 @@ if city_input:
                 
                 # Index beállítása a dátumra
                 chart_data = chart_data.set_index('Date')
-                
                 # Vonaldiagram kirajzolása
                 st.line_chart(chart_data)
                 
